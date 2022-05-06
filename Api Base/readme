@@ -1,0 +1,55 @@
+PORTUGUES {
+	Criei esta base para agilizar a criação de seus projetos usando node,
+	uma base para APIs
+
+	Alguns comandos padrões, se você tiver mais comandos, guardem nesta listinha
+	Ira facilitar muito
+
+	ABRAÇO - LOGAN
+
+	Se quiser modificar o package.json - sinta se à-vontade
+
+	/////////////////////////////////////////////////////////////////////////////
+	ANTES DE TUDO - npm install ou npm i
+
+
+	FAZ o sequelize criar uma estrutura de tabela,
+
+	npx sequelize migration:create --name="NOMEDATABELA"
+	EXEMPLO: npx sequelize migration:create --name="USER"
+
+	Cria a tabela na sua base de dados
+
+	npx sequelize db:migrate
+
+
+	SUGIRO ler todas as documentações oficiais
+},
+
+ENGLISH {
+	I created this base to speed up the creation of your projects using node,
+	a foundation for APIs
+
+	Some standard commands, if you have more commands, keep them in this list
+	It will make it much easier
+
+	HUG - LOGAN
+
+	If you want to modify package.json - feel free
+
+	////////////////////////////////////////////////////////////////////////////
+
+	FIRST OF ALL - npm install or npm i
+
+	MAKES sequelize create a table structure,
+
+	npx sequelize migration:create --name="TABLENAME"
+	EXAMPLE: npx sequelize migration:create --name="USER"
+
+	Create the table in your database
+
+	npx sequelize db:migrate
+
+	I suggest reading all official documentation
+}
+
